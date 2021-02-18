@@ -1,0 +1,69 @@
+
+body{
+    overflow-x: hidden;
+}
+.carousel-indicators button{
+    width: 80px;
+    height: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#carouselExampleIndicators .carousel-control-prev {
+background: transparent;
+    border: 1px solid transparent;
+}
+#carouselExampleIndicators .carousel-control-next{
+    background: transparent;
+    border: 1px solid transparent;
+
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.text-white img{
+    width: 45px;
+    height: 45px;
+}
+
+.text-white {
+    font-family: "Dancing Script";
+}
+.nav, .nav_right{
+   text-decoration: none;
+    color: #6c757d ;
+    border: 1px solid transparent;
+
+}
+.nav:hover , .nav_right:hover{
+    color: white;
+    right: 0;
+    border: 1px solid transparent;
+
+}
+.nav_right{
+    right: 0;
+
+}
+.logo{
+    color: white;
+font-size: 50px;
+    position: absolute;
+}
+.h5car{
+    font-size: 10.25rem;
+    right: 25%;
+    left: 25%;
+    font-family: "Dancing Script";
+
+}
+.container-sm{
+    padding: 10px;
+}
+.input-group{
+    position: absolute;
+    left: 15%;
+    top: 32%;
+}
+
+

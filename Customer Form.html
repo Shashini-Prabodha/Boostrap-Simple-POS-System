@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Form</title>
+    <link href="assests/css/bootstrap.css" rel="stylesheet">
+    <link href="assests/style/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+    </style>
+</head>
+<body>
+
+<div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+        <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
+        <h6><span class="text-muted"><a class="nav" href="www.ijse.lk">Home</a></span></h6>
+        <h6><span class="text-muted"><a class="nav" href="#">Catalogue & Deals</a></span></h6>
+        <h6><span class="text-muted"><a class="nav" href="#">Order</a></span></h6>
+        <h6><span class="text-muted"><a class="nav" href="#">Item</a></span></h6>
+        <h6><span class="text-muted"><a class="nav" href="#">Customer</a></span></h6>
+        <!--         Default dropend button-->
+
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a> | <a href="#" class="nav_right">Logout</a>
+        </h6>
+
+    </div>
+</nav>
+<div class="wallpaper">
+    <img src="assests/icon/p1hmcmuq12mudyu3rcl25sw529wgp9nijndqae6vdzezw2hwk5epxrfjut6opsly-.jpg"
+         class="d-block w-100" alt="..." style="width: 100vw ; height: 40vh; object-fit: cover">
+    <div class="input-group mb-5 w-75">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+    </div>
+</div>
+<form class="container-sm">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="id" placeholder="kamal">
+        <label for="floatingInput">Customer ID</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="kamal">
+        <label for="floatingInput">Customer Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="address" placeholder="kamal">
+        <label for="floatingInput">Customer Address</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="tp" placeholder="kamal">
+        <label for="floatingInput">Customer TP</label>
+    </div>
+    <button type="submit" class="btn btn-info mt-3 ">Submit</button>
+    <button type="submit" class="btn btn-danger mt-3">Clear</button>
+
+</form>
+
+<script src="assests/js/bootstrap.js"></script>
+
+</body>
+</html>
