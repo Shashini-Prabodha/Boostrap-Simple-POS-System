@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0dd610f-59a8-44e1-ad5f-b48991307aca" name="Default Changelist" comment="" />
+    <list default="true" id="f0dd610f-59a8-44e1-ad5f-b48991307aca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Customer Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1odsOjGO4NuiVzGtTItHrqLcfpZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,7 +72,9 @@
       <workItem from="1613628314537" duration="329000" />
       <workItem from="1613628703760" duration="3206000" />
       <workItem from="1613632289717" duration="11736000" />
-      <workItem from="1613654351192" duration="9157000" />
+      <workItem from="1613654351192" duration="9646000" />
+      <workItem from="1613744053846" duration="8317000" />
+      <workItem from="1613756075918" duration="3718000" />
     </task>
     <servers />
   </component>
@@ -71,10 +82,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="96" key="#Inspections" timestamp="1613666966653">
+    <state x="395" y="96" key="#Inspections" timestamp="1613745193764">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1613666966653" />
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1613745193764" />
     <state x="501" y="159" key="FileChooserDialogImpl" timestamp="1613631599719">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

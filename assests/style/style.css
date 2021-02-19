@@ -1,6 +1,11 @@
 
 body{
     overflow-x: hidden;
+    color: white;
+}
+#navbar{
+z-index: 999;
+
 }
 .carousel-indicators button{
     width: 80px;
@@ -67,3 +72,11 @@ font-size: 50px;
 }
 
 
+.card {
+    background-color: #1a1a1a;
+}
+.card-footer>button{
+    position: absolute;
+    left:32%;
+    bottom: -2%;
+}

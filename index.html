@@ -11,60 +11,45 @@
     </style>
 
 </head>
-<div>
-
-<div class="collapse" id="navbarToggleExternalContent>
-    <div class="bg-dark p-4">
+<!--nav bar-->
+<body class="bg-dark">
+<div class="collapse " id="navbarToggleExternalContent">
+    <div class="bg-dark p-4 ">
         <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
         <h6><span class="text-muted"><a class="nav" href="Item%20form.html" target="_blank">Home</a></span></h6>
         <h6><span class="text-muted"><a class="nav" href="#" target="_blank">Catalogue & Deals</a></span></h6>
         <h6><span class="text-muted"><a class="nav" href="order.html" target="_blank">Order</a></span></h6>
         <h6><span class="text-muted"><a class="nav" href="Item%20form.html" target="_blank">Item</a></span></h6>
         <h6><span class="text-muted"><a class="nav" href="Customer%20Form.html" target="_blank">Customer</a></span></h6>
-        <!--         Default dropend button-->
-
-
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
 
     </div>
 </div>
-<nav class="navbar navbar-dark bg-dark">
+
+
+<nav class="navbar navbar-dark bg-dark position-fixed container-fluid" id="navbar">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a>   |   <a href="#" class="nav_right">Logout</a></h6>
+        <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a> | <a href="#" class="nav_right">Logout </a>
+            <img src="assests/icon/shopping_cart_100px.png" style="width: 25px">
+        </h6>
 
     </div>
 </nav>
-
+<!--carouselExampleIndicators-->
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1" ></button>
+                aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner" style="width: 100vw ; height: 90vh">
+    <div class="carousel-inner" style="width: 100vw ; height: 80vh">
         <div class="carousel-item active">
             <img src="assests/icon/p1hmcmuq12mudyu3rcl25sw529wgp9nijndqae6vdzezw2hwk5epxrfjut6opsly-.jpg"
                  class="d-block w-100" alt="...">
@@ -75,7 +60,8 @@
 
         </div>
         <div class="carousel-item">
-            <img src="assests/icon/top-view-fast-food-black-background-mock-up_23-2148321326.jpg" class="d-block w-100" alt="...">
+            <img src="assests/icon/top-view-fast-food-black-background-mock-up_23-2148321326.jpg" class="d-block w-100"
+                 alt="...">
 
         </div>
         <div class="carousel-item">
@@ -92,6 +78,315 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+</div>
+
+<!--food section-->
+<h3 class="text-center lead text-white display-4 m-5">Food</h3>
+
+<!--card food-->
+<div class="container mt-5 ">
+    <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/300.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Rice</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/hakka-noodles-recipe-500x500.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Noodles</h5>
+                    <p class="card-text">Rs.300/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/unnamed.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pasta</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/biriyani.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Biriyani</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/sri-lanka_egg-hoppers_0.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Hoppers</h5>
+                    <p class="card-text">Rs.100/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/rsz_maxresdefault.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Parata</h5>
+                    <p class="card-text">Rs.120/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/pol-roti-coconut-roti.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pol Roti</h5>
+                    <p class="card-text">Rs.150/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/idiyappa.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">String Hoppers</h5>
+                    <p class="card-text">Rs.150/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg"
+                     class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">Rs.950/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/photo-1594212699903-ec8a3eca50f5.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Burgur</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/mayonnaise-Sandwich-3.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sandwitch</h5>
+                    <p class="card-text">Rs.80/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/soup.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Soup</h5>
+                    <p class="card-text">Rs.300/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/spicy-chicken-curry.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Chicken curry</h5>
+                    <p class="card-text">Rs.400/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/Egg-Curry-3.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Egg Curry</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/Kerala-Fish-Curry.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Fish Curry</h5>
+                    <p class="card-text">Rs.350/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--desert section-->
+<h3 class="text-center lead text-white display-4 m-5">Deserts</h3>
+
+<!--card desert-->
+<div class="container mt-5 ">
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+        <div class="col">
+            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/easy-vanilla.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Vanila Ice Cream</h5>
+                    <p class="card-text">Rs.150/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/cinnamon-chocolate-icecream-3517-500x500.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Chocolate Ice Cream</h5>
+                    <p class="card-text">Rs.180/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/Dulce-De-Leche-Creme-Caramel-1-500x500.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Caramel Pudin</h5>
+                    <p class="card-text">Rs.250/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/Are-coconut-and-other-dairy-free-yoghurts-healthy-iStock-904028894-500x409.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Yoghurt</h5>
+                    <p class="card-text">Rs.150/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/watalappan-delectable.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Watalappan</h5>
+                    <p class="card-text">Rs.200/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/fruit-salad_thecozyapron_07-03-15_1.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Fruit Salad</h5>
+                    <p class="card-text">Rs.280/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/chocolate-lazy-cake-slices-side-view-500x375.jpg" class="card-img-top" alt="..."
+                     style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cake</h5>
+                    <p class="card-text">Rs.180/=</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success  mx-auto d-md-block">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
 </div>
 
 
