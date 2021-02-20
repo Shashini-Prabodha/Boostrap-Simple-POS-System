@@ -10,52 +10,119 @@
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
     </style>
 </head>
-<body>
+<body class="bg-dark text-white" style="font-family: 'Segoe UI'">
 
-<div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-        <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
-        <h6><span class="text-muted"><a class="nav" href="www.ijse.lk">Home</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="#">Catalogue & Deals</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="#">Order</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="#">Item</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="#">Customer</a></span></h6>
-        <!--         Default dropend button-->
+<div class="container-fluid position-fixed" style="z-index:999; padding: 0">
 
+    <div class="collapse " id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 "  style="margin: 0;padding: 0;">
+            <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
+            <h6><span class="text-muted"><a class="nav" href="index.html" >Home</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="index.html" >Catalogue & Deals</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="order.html" >Order</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="Item%20form.html">Item</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="Customer%20Form.html">Customer</a></span></h6>
 
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
+    </div>
 
 
+    <nav class="navbar navbar-dark bg-dark position-fixed container-fluid" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a> | <a href="#" class="nav_right">Logout </a>
+                <img src="assests/icon/shopping_cart_100px.png" style="width: 20px">
+            </h6>
+
+        </div>
+    </nav>
+</div>
+
+
+<div class="wallpaper">
+    <img src="assests/icon/WBC_7095.jpg"
+         class="d-block w-100" alt="..." style="width: 100vw ; height: 45vh; object-fit: cover">
+    <div class="input-group mb-5 w-75">
+        <input type="text" class="form-control" placeholder="Item Name" aria-label="Recipient's username"
+               aria-describedby="button-addon2" style="height: 3.1rem; border-radius:25px 0 0 0 ">
+        <button class="btn btn-outline-secondary btn-dark text-white" type="button" id="button-addon2"
+                style="border-radius:0 0 25px 0  ">Search
+        </button>
     </div>
 </div>
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a>   |   <a href="#" class="nav_right">Logout</a></h6>
+<form class="container">
+    <div class="form-floating m-3 ">
+        <input type="text" class="form-control bg-dark text-white" id="floatingInputID" placeholder="I001">
+        <label for="floatingInput">Item ID</label>
+    </div>
+    <div class="form-floating m-3">
+        <input type="text" class="form-control bg-dark text-white" id="floatingInputName" placeholder="rice">
+        <label for="floatingInput">Item Name</label>
+    </div>
+    <div class="form-floating m-3">
+        <input type="text" class="form-control bg-dark text-white" id="floatingInputPrice" placeholder="50">
+        <label for="floatingInput">Unit Price</label>
+    </div>
+    <div class="form-floating m-3">
+        <input type="text" class="form-control bg-dark text-white" id="floatingInput" placeholder="5">
+        <label for="floatingInput">Available</label>
+    </div>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button type="submit" class="btn btn-info mt-3 ">Save</button>
+        <button type="submit" class="btn btn-danger mt-3">Clear</button>
 
     </div>
-</nav>
 
+    <table class="table text-white" style="font-family: 'Segoe UI'">
+        <h4 class="display-6 m-5 text-center">Item Details</h4>
+        <tr>
+            <th>Item ID</th>
+            <th>Item Name</th>
+            <th>Unit Price (Rs.)</th>
+            <th>Available</th>
+        </tr>
+        <tr>
+            <td>I001</td>
+            <td>Rice</td>
+            <td>350</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>I002</td>
+            <td>Noodles</td>
+            <td>300</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>I003</td>
+            <td>Pasta</td>
+            <td>350</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>I004</td>
+            <td>Biriyani</td>
+            <td>350</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>I005</td>
+            <td>Hoppers</td>
+            <td>100</td>
+            <td>15</td>
+        </tr>
 
-
+    </table>
+</form>
+<footer class="container-fluid footer">
+    <h6 class="text-center text-muted mt-3"> Copyright © 2020 All right reserved</br> Website Powered BY SHASHINI
+        PRABODHA</h6>
+</footer>
 
 <script src="assests/js/bootstrap.js"></script>
 

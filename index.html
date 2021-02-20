@@ -13,84 +13,102 @@
 </head>
 <!--nav bar-->
 <body class="bg-dark">
-<div class="collapse " id="navbarToggleExternalContent">
-    <div class="bg-dark p-4 ">
-        <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
-        <h6><span class="text-muted"><a class="nav" href="Item%20form.html" target="_blank">Home</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="#" target="_blank">Catalogue & Deals</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="order.html" target="_blank">Order</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="Item%20form.html" target="_blank">Item</a></span></h6>
-        <h6><span class="text-muted"><a class="nav" href="Customer%20Form.html" target="_blank">Customer</a></span></h6>
 
+<div class="container-fluid position-fixed" style="z-index:999; padding: 0">
+
+    <div class="collapse " id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 "  style="margin: 0;padding: 0;">
+            <h5 class="text-white h5"><img src="assests/icon/splogo.png" alt="..."> SP Cafe</h5>
+            <h6><span class="text-muted"><a class="nav" href="index.html" >Home</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="#catalouge" >Catalogue & Deals</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="order.html" >Order</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="Item%20form.html">Item</a></span></h6>
+            <h6><span class="text-muted"><a class="nav" href="Customer%20Form.html">Customer</a></span></h6>
+
+        </div>
     </div>
+
+
+    <nav class="navbar navbar-dark bg-dark position-fixed container-fluid" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a> | <a href="#" class="nav_right">Logout </a>
+                <img src="assests/icon/shopping_cart_100px.png" style="width: 20px">
+            </h6>
+
+        </div>
+    </nav>
 </div>
 
 
-<nav class="navbar navbar-dark bg-dark position-fixed container-fluid" id="navbar">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <h6 class="navbar_h6_ls"><a href="#" class="nav_right">Sign Up</a> | <a href="#" class="nav_right">Logout </a>
-            <img src="assests/icon/shopping_cart_100px.png" style="width: 25px">
-        </h6>
-
-    </div>
-</nav>
 <!--carouselExampleIndicators-->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner" style="width: 100vw ; height: 80vh">
-        <div class="carousel-item active">
-            <img src="assests/icon/p1hmcmuq12mudyu3rcl25sw529wgp9nijndqae6vdzezw2hwk5epxrfjut6opsly-.jpg"
-                 class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5 class="h5car">SP Cafe</h5>
-                <p>Good food... Good mood</p>
+<div class="container-fluid" style="padding: 0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!--        <ol class="carousel-indicators">-->
+<!--            <li data-bs-target="#carouselExampleIndicators" data-bs-slide="0" class="active" aria-current="true" aria-label="Slide 1"></li>-->
+<!--            <li data-bs-target="#carouselExampleIndicators" data-bs-slide="1" aria-label="Slide 2"></li>-->
+<!--            <li data-bs-target="#carouselExampleIndicators" data-bs-slide="2" aria-label="Slide 3"></li>-->
+<!--        </ol>-->
+
+
+     <!--   <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>-->
+
+
+
+        <div class="carousel-inner" style="width: 100vw ; ">
+            <div class="carousel-item active">
+                <img src="assests/icon/p1hmcmuq12mudyu3rcl25sw529wgp9nijndqae6vdzezw2hwk5epxrfjut6opsly-.jpg"
+                     class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5car">SP Cafe</h5>
+                    <p>Good food... Good mood</p>
+                </div>
+
             </div>
+            <div class="carousel-item">
+                <img src="assests/icon/top-view-fast-food-black-background-mock-up_23-2148321326.jpg" class="d-block"
+                     alt="...">
 
+            </div>
+            <div class="carousel-item">
+                <img src="assests/icon/fCD9is.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="assests/icon/top-view-fast-food-black-background-mock-up_23-2148321326.jpg" class="d-block w-100"
-                 alt="...">
 
-        </div>
-        <div class="carousel-item">
-            <img src="assests/icon/fCD9is.jpg" class="d-block w-100" alt="...">
-        </div>
+        <!--    carousel controller-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
 
 <!--food section-->
 <h3 class="text-center lead text-white display-4 m-5">Food</h3>
 
 <!--card food-->
-<div class="container mt-5 ">
+<div class="container mt-5 mb-5 " id="catalouge">
     <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
         <div class="col">
             <div class="card h-100" style="border-radius: 25px 0 25px 0">
                 <img src="assests/icon/300.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Rice</h5>
+                    <h5 class="card-title">Rice - බත් </h5>
+                    <h6 class="card-header text-muted">I001</h6>
                     <p class="card-text">Rs.350/=</p>
                 </div>
                 <div class="card-footer">
@@ -103,7 +121,7 @@
                 <img src="assests/icon/hakka-noodles-recipe-500x500.jpg" class="card-img-top" alt="..."
                      style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Noodles</h5>
+                    <h5 class="card-title">Noodles - නූඩ්ල්ස්</h5>
                     <p class="card-text">Rs.300/=</p>
                 </div>
                 <div class="card-footer">
@@ -115,7 +133,7 @@
             <div class="card h-100" style="border-radius: 25px 0 25px 0">
                 <img src="assests/icon/unnamed.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Pasta</h5>
+                    <h5 class="card-title">Pasta - පැස්ටා </h5>
                     <p class="card-text">Rs.350/=</p>
                 </div>
                 <div class="card-footer">
@@ -127,7 +145,7 @@
             <div class="card h-100" style="border-radius: 25px 0 25px 0">
                 <img src="assests/icon/biriyani.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Biriyani</h5>
+                    <h5 class="card-title">Biriyani - බිරියානි </h5>
                     <p class="card-text">Rs.350/=</p>
                 </div>
                 <div class="card-footer">
@@ -141,7 +159,7 @@
                 <img src="assests/icon/sri-lanka_egg-hoppers_0.jpg" class="card-img-top" alt="..."
                      style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Hoppers</h5>
+                    <h5 class="card-title">Hoppers - ආප්ප</h5>
                     <p class="card-text">Rs.100/=</p>
                 </div>
                 <div class="card-footer">
@@ -154,7 +172,7 @@
                 <img src="assests/icon/rsz_maxresdefault.jpg" class="card-img-top" alt="..."
                      style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Parata</h5>
+                    <h5 class="card-title">Parata - පරාටා </h5>
                     <p class="card-text">Rs.120/=</p>
                 </div>
                 <div class="card-footer">
@@ -167,7 +185,7 @@
                 <img src="assests/icon/pol-roti-coconut-roti.jpg" class="card-img-top" alt="..."
                      style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Pol Roti</h5>
+                    <h5 class="card-title">Pol Roti - පොල් රොටි </h5>
                     <p class="card-text">Rs.150/=</p>
                 </div>
                 <div class="card-footer">
@@ -180,7 +198,7 @@
                 <img src="assests/icon/idiyappa.jpg" class="card-img-top" alt="..."
                      style="border-radius: 25px 0 25px 0">
                 <div class="card-body text-center">
-                    <h5 class="card-title">String Hoppers</h5>
+                    <h5 class="card-title">String Hoppers - ඉදිආප්ප </h5>
                     <p class="card-text">Rs.150/=</p>
                 </div>
                 <div class="card-footer">
@@ -290,12 +308,12 @@
 <h3 class="text-center lead text-white display-4 m-5">Deserts</h3>
 
 <!--card desert-->
-<div class="container mt-5 ">
-    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+<div class="container mt-5 mb-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
         <div class="col">
-            <div class="card h-100 " style="border-radius: 25px 0 25px 0">
-                <img src="assests/icon/easy-vanilla.jpg" class="card-img-top" alt="..." style="border-radius: 25px 0 25px 0">
-                <div class="card-body text-center">
+            <div class="card h-100" style="border-radius: 25px 0 25px 0">
+                <img src="assests/icon/easy-vanilla.jpg" class="card-img-top " alt="..." style="border-radius: 25px 0 25px 0">
+                <div class="card-body text-center ">
                     <h5 class="card-title">Vanila Ice Cream</h5>
                     <p class="card-text">Rs.150/=</p>
                 </div>
@@ -342,6 +360,7 @@
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card h-100" style="border-radius: 25px 0 25px 0">
                 <img src="assests/icon/watalappan-delectable.jpg" class="card-img-top" alt="..."
@@ -387,8 +406,9 @@
 
 </div>
 
-</div>
-
+<footer class="container-fluid footer">
+<h6 class="text-center text-muted mt-3">    Copyright © 2020 All right reserved</br> Website Powered BY SHASHINI PRABODHA</h6>
+</footer>
 
 <script src="assests/js/bootstrap.js"></script>
 
